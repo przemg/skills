@@ -1,0 +1,19 @@
+{
+  "name": "przemg-skills",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "https://github.com/przemg/skills#readme",
+  "bugs": {
+    "url": "https://github.com/przemg/skills/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/przemg/skills.git"
+  },
+  "private": true,
+  "license": "MIT",
+  "author": "Przemysław Gwóźdź",
+  "type": "module",
+  "scripts": {
+  }
+}
