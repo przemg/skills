@@ -15,5 +15,9 @@
   "author": "Przemysław Gwóźdź",
   "type": "module",
   "scripts": {
+    "changeset": "changeset"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^3.0.3"
   }
 }
