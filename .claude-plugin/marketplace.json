@@ -1,0 +1,16 @@
+{
+  "name": "przemg",
+  "owner": {
+    "name": "Przemysław Gwóźdź"
+  },
+  "description": "Przemysław Gwóźdź's agent skills for Claude Code.",
+  "plugins": [
+    {
+      "name": "przemg-in-progress",
+      "description": "Beta skills: work in progress, opt-in, may change or move.",
+      "source": "./skills/in-progress",
+      "skills": "./",
+      "version": "0.0.0"
+    }
+  ]
+}
