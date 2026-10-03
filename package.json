@@ -17,7 +17,9 @@
   "scripts": {
     "changeset": "changeset",
     "release": "node scripts/release.mjs",
-    "check-plugin-version": "node scripts/sync-plugin-version.mjs --check"
+    "check-plugin-version": "node scripts/sync-plugin-version.mjs --check",
+    "link-skill": "node scripts/link-skill.mjs",
+    "unlink-skill": "node scripts/unlink-skill.mjs"
   },
   "devDependencies": {
     "@changesets/cli": "^3.0.3"
