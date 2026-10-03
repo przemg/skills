@@ -10,7 +10,7 @@
       "description": "Beta skills: work in progress, opt-in, may change or move.",
       "source": "./skills/in-progress",
       "skills": "./",
-      "version": "0.0.0"
+      "version": "0.1.0"
     }
   ]
 }
