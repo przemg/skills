@@ -15,7 +15,9 @@
   "author": "Przemysław Gwóźdź",
   "type": "module",
   "scripts": {
-    "changeset": "changeset"
+    "changeset": "changeset",
+    "release": "node scripts/release.mjs",
+    "check-plugin-version": "node scripts/sync-plugin-version.mjs --check"
   },
   "devDependencies": {
     "@changesets/cli": "^3.0.3"
