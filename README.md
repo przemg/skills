@@ -6,14 +6,25 @@ Agent skills by Przemysław Gwóźdź, packaged as a Claude Code plugin marketpl
 
 ### Claude Code plugin (recommended)
 
+Start Claude Code and type in its prompt:
+
 ```
 /plugin marketplace add przemg/skills
 /plugin install przemg-in-progress@przemg
 ```
 
+`/plugin install` opens a panel where you choose the scope: every project on your machine, everyone working in this repository, or this repository only.
+
+Or from your terminal, without starting a session:
+
+```
+claude plugin marketplace add przemg/skills
+claude plugin install przemg-in-progress@przemg
+```
+
 Recommended: turn on auto-update. It's off by default for third-party marketplaces. Run `/plugin`, open the **Marketplaces** tab, select `przemg`, then choose **Enable auto-update**. New versions then install when a session starts and load in the next one.
 
-To update by hand instead:
+To update by hand instead, run in your terminal:
 
 ```
 claude plugin update przemg-in-progress@przemg
